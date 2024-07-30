@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.contact {
+        font-size: 25px;
+        padding: 71px;
+        height: 870px;
+        background-size: cover;
+        background-image: url(../../assets/madmaxfundo.jpg);
+        margin-top: -90px; 
+}
+
+input {
+    width: 320px;
+    height: 35px;
+    margin-left: 970px;
+    margin-top: 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+#form {
+    margin-top: -845px;
+    margin-left: -200px;
+}
+
+h1 {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+textarea {
+    width: 700px;
+    height: 330px;
+    margin-left: 770px;
+    margin-top: 30px;
+    text-align: center;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+#button{
+    display: flex;
+    width: 100px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 1070px;
+    margin-bottom: 160px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+footer1 {
+    margin-left: -70px;
+}
+
+@media(max-width: 1000px){
+
+    input {
+        display: flex;
+        margin-left: 270px;
+        width: 200px;
+        margin-top: 10px;
+    }
+
+    textarea {
+        display: flex;
+        margin-left: 225px;
+        width: 300px;
+        height: 200px;
+        margin-bottom: 20px;
+    }
+    .contact {
+        margin-top: 0px;
+        padding: 30px 20px 50px 50px;
+        font-size: 10px;
+        width: 100%;
+        display: flex;  
+    }
+
+    footer1 {
+        display: flex;
+        margin-left: -10px;
+    }
+}

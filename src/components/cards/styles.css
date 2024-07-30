@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+.actor-cards-container {
+    width: 100%;
+    display: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    background-color: #000;
+}
+
+.cards-content {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+    column-gap: 40px;
+}
+
+.card {
+    width: 100%;
+    height: 800px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    color: #fff;
+    font-size: 17px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+.banner-1 {
+    background-image: url('/src/assets/max.png');
+}
+
+.banner-2 {
+    background-image: url(https://www.avcesar.com/source/actualites/00/00/A4/5E/main_furiosa-le-nouvel-opus-de-la-saga-mad-max-arrive-a-pleine-vitesse-en-4-k_05495212.webp);
+}
+
+.banner-3 {
+    background-image: url(https://image.tensorartassets.com/cdn-cgi/image/anim=false,plain=false,w=500,q=85/model_showcase/680918660770033514/ff52b53f-018e-0fa6-c114-c92a06565416.jpeg);
+}
+
+@media (max-width: 1000px) {
+    .cards-content {
+        display: block;
+        width: 290px;
+    }
+    
+    .card {
+        height: 200px;
+        margin-top: -20px;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+
+    footer {
+        margin-top: -2000px;
+    }
+}
