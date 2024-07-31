@@ -6,7 +6,8 @@ import Footer from '../../components/footerblack/footer';
 function Contatos() {
   return (
     <>
-    <Header /> 
+    <Header />
+    <div id='banner1'></div> 
       <div className="contact">
         <h1>Entre em Contato Conosco!</h1>
         </div>

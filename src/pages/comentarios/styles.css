@@ -41,30 +41,30 @@
     .imgfotos{
         width: 150px;
         height: 120px;
-        display: flex;
-        align-items: center;
-        margin-left: 100px;
+        display: inline;
+        justify-content: center;
+        margin-left: 120px;
         margin-top: 50px;
     }
 
     .text {
         display: flex;
-        margin-top: -330px;
-        margin-left: 40px;
+        margin-top: -340px;
+        margin-left: 50px;
         font-size: 12px;
     }
 
     .text1 {
         display: flex;
         margin-top: 140px;
-        margin-left: 70px;
+        margin-left: 80px;
         font-size: 12px;
     }
 
     .text2 {
         display: flex;
         margin-top: 140px;
-        margin-left: 50px;
+        margin-left: 60px;
         font-size: 12px;
     }
 
